@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar  -->
+    <nav class="bg-blue-600 text-white py-4 fixed top-0 w-full shadow-md z-50">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <a href="#" class="text-2xl font-bold">PAWSOME</a>
+            <ul class="flex space-x-6">
+                <li><a href="Index.html" class="hover:text-gray-300 active">Home</a></li>
+                <li><a href="About.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="Services.html" class="hover:text-gray-300">Services</a></li>
+                <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                <li><a href="register.html" class="hover:text-gray-300">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content  -->
+    <div class="mt-20 flex items-center justify-center min-h-screen p-6">
+
+        <div class="bg-white shadow-lg rounded-lg max-w-4xl w-full p-8">
+            <h1 class="text-3xl font-bold text-blue-600 text-center">Contact Us</h1>
+            <p class="text-gray-600 text-center mt-2">Feel free to reach out to us for any inquiries or support.</p>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-6">
+                
+                <!-- Contact Form -->
+                <form class="space-y-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 pl-10 border rounded-lg focus:ring focus:ring-blue-300 outline-none">
+                        <i class='bx bxs-user absolute left-3 top-3 text-blue-500 text-lg'></i>
+                    </div>
+
+                    <div class="relative">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 pl-10 border rounded-lg focus:ring focus:ring-blue-300 outline-none">
+                        <i class='bx bxs-envelope absolute left-3 top-3 text-blue-500 text-lg'></i>
+                    </div>
+
+                    <div class="relative">
+                        <input type="text" placeholder="Subject" class="w-full p-3 pl-10 border rounded-lg focus:ring focus:ring-blue-300 outline-none">
+                        <i class='bx bxs-chat absolute left-3 top-3 text-blue-500 text-lg'></i>
+                    </div>
+
+                    <div class="relative">
+                        <textarea placeholder="Your Message" class="w-full p-3 pl-10 border rounded-lg focus:ring focus:ring-blue-300 outline-none h-32"></textarea>
+                        <i class='bx bxs-pencil absolute left-3 top-3 text-blue-500 text-lg'></i>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Send Message</button>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="bg-blue-600 text-white p-6 rounded-lg space-y-4">
+                    <h2 class="text-2xl font-bold">Get in Touch</h2>
+                    <p class="flex items-center"><i class='bx bxs-phone mr-2 text-xl'></i> +91 98765 43210</p>
+                    <p class="flex items-center"><i class='bx bxs-envelope mr-2 text-xl'></i> support@animalhealth.com</p>
+                    <p class="flex items-center"><i class='bx bxs-map mr-2 text-xl'></i> 123, Animal Health Street, India</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

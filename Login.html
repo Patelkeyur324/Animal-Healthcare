@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-3xl font-bold text-blue-600 text-center">Login</h1>
+
+        <form action="" class="mt-6 space-y-4">
+            
+            <!-- Username Field -->
+            <div class="relative">
+                <input type="text" placeholder="Username" required class="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none">
+                <i class='bx bxs-user absolute left-3 top-3 text-blue-500 text-lg'></i>
+            </div>
+
+            <!-- Password Field -->
+            <div class="relative">
+                <input type="password" placeholder="Password" required class="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none">
+                <i class='bx bxs-lock-alt absolute left-3 top-3 text-blue-500 text-lg'></i>
+            </div>
+
+            <!-- Remember Me Checkbox -->
+            <div class="flex items-center">
+                <input type="checkbox" class="mr-2 w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                <label class="text-gray-600">Remember Me</label>
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Login</button>
+
+            <!-- Back Page Links -->
+            <div class="text-center mt-4">
+                <a href="Index.html" class="text-blue-600 hover:underline">Back to Home Page</a> |
+                <a href="Register.html" class="text-blue-600 hover:underline">Register</a>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
